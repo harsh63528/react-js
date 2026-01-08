@@ -39,7 +39,7 @@ useEffect(()=>{
       setMessage('there is no reminder')
   },2000)
 
-},[A])
+},[A]);
 
 useEffect(()=>{
   if(Value<=B){
