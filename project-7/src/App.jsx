@@ -18,9 +18,10 @@ return(
   <Routes>
   <Route path="/" element={<HOME />} />
   <Route path="/aboutus" element={<ABOUTUS />} />
-  <Route path="/contact" element={<CONTACT/>}/>
+  <Route path="/contact" element={<CONTACT/>}>
   <Route path='/contact/:id' element={<MEN/>}/>
    <Route path='men'  element={<MEN/>}/>
+   </Route>
   <Route path='*' element={<NOTFOUND/>}/>
 </Routes>
 </>
